@@ -1,10 +1,9 @@
-//
-//  OpenRadar_AppDelegate.m
-//  OpenRadar
-//
-//  Created by wolf on 11/15/08.
-//  Copyright Red Shed Software Company 2008 . All rights reserved.
-//
+/*******************************************************************************
+	OpenRadar_AppDelegate.m
+		Copyright (c) 2008 Jonathan 'Wolf' Rentzsch: <http://rentzsch.com>
+		Some rights reserved: <http://opensource.org/licenses/mit-license.php>
+
+	***************************************************************************/
 
 #import "OpenRadar_AppDelegate.h"
 #import "BugMO.h"

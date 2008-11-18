@@ -15,6 +15,7 @@
 		797EF46B0ECFF0D300B28F7A /* jquery-1.2.6.pack.js in Resources */ = {isa = PBXBuildFile; fileRef = 797EF4400ECFEE8800B28F7A /* jquery-1.2.6.pack.js */; };
 		797EF5B60ED003D900B28F7A /* BugMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 797EF5B50ED003D900B28F7A /* BugMO.m */; };
 		797EF5B80ED003DA00B28F7A /* _BugMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 797EF5B70ED003D900B28F7A /* _BugMO.m */; };
+		79F4D4140ED34E1300847C5D /* Open Radar.icns in Resources */ = {isa = PBXBuildFile; fileRef = 79F4D4130ED34E1300847C5D /* Open Radar.icns */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -37,8 +38,9 @@
 		797EF4420ECFEED000B28F7A /* extract_radar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = extract_radar.js; sourceTree = "<group>"; };
 		797EF5B50ED003D900B28F7A /* BugMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BugMO.m; sourceTree = "<group>"; };
 		797EF5B70ED003D900B28F7A /* _BugMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _BugMO.m; sourceTree = "<group>"; };
+		79F4D4130ED34E1300847C5D /* Open Radar.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Open Radar.icns"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* OpenRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* Open Radar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Radar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* OpenRadar.app */,
+				8D1107320486CEB800E47090 /* Open Radar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +117,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				79F4D4130ED34E1300847C5D /* Open Radar.icns */,
 				797EF4420ECFEED000B28F7A /* extract_radar.js */,
 				797EF4400ECFEE8800B28F7A /* jquery-1.2.6.pack.js */,
 				8D1107310486CEB800E47090 /* Info.plist */,
@@ -169,7 +172,7 @@
 			name = OpenRadar;
 			productInstallPath = "$(HOME)/Applications";
 			productName = OpenRadar;
-			productReference = 8D1107320486CEB800E47090 /* OpenRadar.app */;
+			productReference = 8D1107320486CEB800E47090 /* Open Radar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -198,6 +201,7 @@
 				797EF46B0ECFF0D300B28F7A /* jquery-1.2.6.pack.js in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
+				79F4D4140ED34E1300847C5D /* Open Radar.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +255,7 @@
 				GCC_PREFIX_HEADER = OpenRadar_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = OpenRadar;
+				PRODUCT_NAME = "Open Radar";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -266,7 +270,7 @@
 				GCC_PREFIX_HEADER = OpenRadar_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = OpenRadar;
+				PRODUCT_NAME = "Open Radar";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
